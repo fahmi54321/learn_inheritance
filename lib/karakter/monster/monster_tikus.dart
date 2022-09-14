@@ -1,18 +1,24 @@
 import 'package:learn_inheritance/karakter/monster.dart';
 
 
-/// * todo 3 merupakan salah satu child class dari monster
-/// 1. agar lebih spesifik -->
-/// 2. nama,skill diubah dengan bantuan @override
-/// 3. (next home_state)
+/// todo 3 (finish)
+/// 1. berikut implement abstract skill dan level boss
 
 class MonsterTikus extends MonsterKarakter{
 
   @override
   String get nama => 'Tikus';
 
+
+  // abstract
+
   @override
   String skill() {
     return 'Mencuri';
+  }
+
+  @override
+  String levelBos() {
+    return 'Level tinggi';
   }
 }

@@ -6,9 +6,6 @@ import 'package:learn_inheritance/karakter/monster.dart';
 import 'package:learn_inheritance/karakter/monster/monster_kecoa.dart';
 import 'package:provider/provider.dart';
 
-
-//todo 6 (finish)
-
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
 
@@ -126,6 +123,9 @@ class _HomeState extends State<Home> {
                                           'Nama : ${monster.nama}',
                                         ),
                                         Text(
+                                          'Level : ${monster.levelBos()}',
+                                        ),
+                                        Text(
                                           'Healty : ${monster.healtyPointInput.text}',
                                         ),
                                         Text(
@@ -173,6 +173,9 @@ class _HomeState extends State<Home> {
                                       children: [
                                         Text(
                                           'Nama : ${hero.nama}',
+                                        ),
+                                        Text(
+                                          'Jenis Kelamin : ${hero.jnsKelamin()}',
                                         ),
                                         Text(
                                           'healty : ${hero.healtyPointInput.text}',

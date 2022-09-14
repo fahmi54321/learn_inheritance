@@ -1,16 +1,16 @@
 import 'package:learn_inheritance/karakter/karakter.dart';
 
+/// todo 2
+/// 1. subs parent dari karakter juga dijadikan abstract
+/// 2. sebab semua parent child dari Hero harus ada jenisKelamin
+/// 3. (next child hero dan child monster)
 
-//todo 2 buat parent class lebih spesifik
-// karena class ini khusus untuk object hero
-// sebagai contoh function killingAMonster() merupakan tujuan utama dari
-// object hero
-// (next hero_persian.dart dan hero_vikings.dart)
-
-class HeroKarakter extends Karakter{
+abstract class HeroKarakter extends Karakter{
 
   String killingAMonster(){
     return 'bunuh monster';
   }
+
+  String jnsKelamin();
 
 }

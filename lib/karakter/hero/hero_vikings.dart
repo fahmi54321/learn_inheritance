@@ -1,19 +1,24 @@
 import 'package:learn_inheritance/karakter/hero.dart';
 
 
-/// * todo 3 merupakan salah satu child class dari hero
-/// 1. agar lebih spesifik -->
-/// 2. nama,skill diubah dengan bantuan @override
-/// 3. (next home_state)
+/// todo 3 (finish)
+/// 1. berikut implement abstract skill dan jenis kelamin
 
 class HeroViking extends HeroKarakter {
 
   @override
   String get nama => 'Viking';
 
+  //abstract
+
   @override
   String skill() {
     return 'Bermain kapak';
+  }
+
+  @override
+  String jnsKelamin() {
+    return 'Perempuan';
   }
 
 }

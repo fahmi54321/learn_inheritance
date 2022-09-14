@@ -1,14 +1,16 @@
 import 'package:learn_inheritance/karakter/karakter.dart';
 
 
- /// * todo 2
- /// 1. buat parent class lebih spesifik
- /// 2. karena class ini khusus untuk object monster
- /// 3. sebagai contoh function eatingHuman() merupakan tujuan utama dari object monster
- /// 4. (next monster_kecoa.dart dan monster_tikus.dart)
+/// todo 2
+/// 1. subs parent dari karakter juga dijadikan abstract
+/// 2. sebab semua parent child dari Monster harus ada levelBos
+/// 3. (next child hero dan child monster)
 
-class MonsterKarakter extends Karakter {
+abstract class MonsterKarakter extends Karakter {
   String eatingHuman() {
     return 'makan manusia';
   }
+
+  String levelBos();
+
 }
