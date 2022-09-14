@@ -7,6 +7,9 @@ import 'package:learn_inheritance/karakter/monster/monster_kecoa.dart';
 import 'package:learn_inheritance/karakter/monster/monster_tikus.dart';
 
 class HomeState extends ChangeNotifier {
+
+  //todo 4 inisialisasi object
+
   MonsterTikus monsterTikus = MonsterTikus();
   MonsterKecoa monsterKecoa = MonsterKecoa();
   HeroViking heroViking = HeroViking();
@@ -17,6 +20,9 @@ class HomeState extends ChangeNotifier {
   List<HeroKarakter> listHero = [];
 
   HomeState() {
+
+    // todo 5 jadikan object ke list (next home.dart)
+
     listMonster.add(monsterTikus);
     listMonster.add(monsterKecoa);
 

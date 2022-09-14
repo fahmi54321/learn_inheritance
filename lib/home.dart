@@ -6,6 +6,9 @@ import 'package:learn_inheritance/karakter/monster.dart';
 import 'package:learn_inheritance/karakter/monster/monster_kecoa.dart';
 import 'package:provider/provider.dart';
 
+
+//todo 6 (finish)
+
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
 
