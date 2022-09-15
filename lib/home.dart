@@ -136,6 +136,9 @@ class _HomeState extends State<Home> {
                                         Text(
                                           'Aksi : ${monster.skill()}',
                                         ),
+                                        (monster is MonsterKecoa) ? Text(
+                                          'Aksi : ${monster.reward()}',
+                                        ) : Text('Reward : -'),
                                         (monster is MonsterKecoa)
                                             ? Text(
                                                 'Subskill : ${monster.subSkill()}',
@@ -188,6 +191,9 @@ class _HomeState extends State<Home> {
                                         Text(
                                           'Aksi : ${hero.skill()}',
                                         ),
+                                        (hero is HeroPersia) ? Text(
+                                          'Reward : ${hero.reward()}',
+                                        ) : Text('Reward : -'),
                                         (hero is HeroPersia)
                                             ? Text(
                                                 'Subskill : ${hero.subSkillPersian()}',

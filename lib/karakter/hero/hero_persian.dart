@@ -1,13 +1,14 @@
 import 'package:learn_inheritance/karakter/hero.dart';
 import 'package:learn_inheritance/karakter/interface.dart';
+import 'package:learn_inheritance/karakter/mixin/reward_karakter.dart';
+
+/// todo 3 (finish)
+/// karakter ini mendapatkan reward, maka perlu tambahan with
+/// didalam class ini
+/// penambahan with harus sebelum dari keyword implements
 
 
-/// todo 3 (next hero_perkings)
-/// Nah hero persia ini memakai interface dari subskill
-/// sebab hero ini memiliki subskill
-/// dengan cara bantuan keywoard implement
-
-class HeroPersia extends HeroKarakter implements SubSkill{
+class HeroPersia extends HeroKarakter with RewardKarakter implements SubSkill{
   @override
   String get nama => 'Persians';
 
@@ -30,4 +31,12 @@ class HeroPersia extends HeroKarakter implements SubSkill{
   String subSkillPersian() {
     return 'Bermain Pedang';
   }
+
+
+  // mixin
+  @override
+  String reward() {
+    return super.reward();
+  }
+
 }

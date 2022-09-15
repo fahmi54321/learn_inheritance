@@ -26,7 +26,7 @@ class HomeState extends ChangeNotifier {
 
     listHero.add(heroViking);
     listHero.add(heroPersia);
-    listHero.add(heroPerkings); // todo 5 tambah list hero (finish)
+    listHero.add(heroPerkings);
 
     notifyListeners();
   }
