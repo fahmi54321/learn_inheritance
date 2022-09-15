@@ -1,11 +1,6 @@
 import 'package:learn_inheritance/karakter/mixin/reward_karakter.dart';
 import 'package:learn_inheritance/karakter/monster.dart';
 
-
-/// todo 2 (next hero_persian)
-/// karakter ini mendapatkan reward, maka perlu tambahan with
-/// didalam class ini
-
 class MonsterKecoa extends MonsterKarakter with RewardKarakter{
 
   @override

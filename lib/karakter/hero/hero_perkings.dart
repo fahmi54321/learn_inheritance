@@ -1,5 +1,5 @@
 import 'package:learn_inheritance/karakter/hero/hero_vikings.dart';
-import 'package:learn_inheritance/karakter/interface.dart';
+import 'package:learn_inheritance/karakter/interface/interface.dart';
 
 class HeroPerkings extends HeroViking implements SubSkill{
 

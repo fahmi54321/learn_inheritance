@@ -3,7 +3,6 @@ import 'package:learn_inheritance/home_state.dart';
 import 'package:learn_inheritance/karakter/hero.dart';
 import 'package:learn_inheritance/karakter/hero/hero_perkings.dart';
 import 'package:learn_inheritance/karakter/hero/hero_persian.dart';
-import 'package:learn_inheritance/karakter/hero/hero_vikings.dart';
 import 'package:learn_inheritance/karakter/monster.dart';
 import 'package:learn_inheritance/karakter/monster/monster_kecoa.dart';
 import 'package:provider/provider.dart';
