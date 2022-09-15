@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:learn_inheritance/karakter/hero.dart';
+import 'package:learn_inheritance/karakter/hero/hero_perkings.dart';
 import 'package:learn_inheritance/karakter/hero/hero_persian.dart';
 import 'package:learn_inheritance/karakter/hero/hero_vikings.dart';
 import 'package:learn_inheritance/karakter/monster.dart';
@@ -12,6 +13,7 @@ class HomeState extends ChangeNotifier {
   MonsterKecoa monsterKecoa = MonsterKecoa();
   HeroViking heroViking = HeroViking();
   HeroPersia heroPersia = HeroPersia();
+  HeroPerkings heroPerkings = HeroPerkings();
 
 
   List<MonsterKarakter> listMonster = [];
@@ -24,6 +26,7 @@ class HomeState extends ChangeNotifier {
 
     listHero.add(heroViking);
     listHero.add(heroPersia);
+    listHero.add(heroPerkings); // todo 5 tambah list hero (finish)
 
     notifyListeners();
   }
