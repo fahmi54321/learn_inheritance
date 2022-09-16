@@ -1,6 +1,4 @@
 
-//todo 2 contoh generic method (finish)
-
 class Utils {
   static T? getItem<T>(List<T> list, int index) {
     return list.asMap().containsKey(index) ? list[index] : null;
