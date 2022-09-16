@@ -1,7 +1,4 @@
 
-/// todo 1 (finish)
-/// keuntungan pakai enum ini agar bisa mudah dipahami aja
-
 enum PoskoStatus{request,onProgress, selesai}
 
 class Posko{
